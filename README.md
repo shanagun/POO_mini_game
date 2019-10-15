@@ -1,10 +1,10 @@
-Projet THP Semaine 3 Jour 2 : let's GO OOP
+# Projet THP Semaine 3 Jour 2 : let's GO OOP
 
-Objet du projet
+## Objet du projet
 
 Développer un Mini jeu - il veulent tous ta POO
 
-Pour lancer l'application :
+### Pour lancer l'application :
 
 Version 1
 
