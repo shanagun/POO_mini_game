@@ -5,10 +5,10 @@ require_relative 'lib/game'
 require_relative 'lib/player'
 
 def home # Menu
-  puts "-------------------------------------------------"
-  puts "|Bienvenue sur 'ILS VEULENT TOUS MA POO' !      |"
-  puts "|Le but du jeu est d'être le dernier survivant !|"
-  puts "-------------------------------------------------"
+  puts "-----------------------------------------------------"
+  puts "|     Bienvenue sur 'ILS VEULENT TOUS MA POO' !     |"
+  puts "|  Le but du jeu est d'être le dernier survivant !  |"
+  puts "-----------------------------------------------------"
 end
 
 def init_player # On crée un user_player de la classe HumanPlayer
@@ -20,6 +20,7 @@ def init_player # On crée un user_player de la classe HumanPlayer
   return user_player 
 end
 
+home
 # On crée les players 1 et 2 de la classe Player -> José et Josiane
 player1 = Player.new("Josiane")
 player2 = Player.new("José")
